@@ -11,7 +11,7 @@ body{
     background-color: rgba(200, 200, 168, 0.815);
     
 }
-
+/*FORMATAÇÃO DA IMAGEM*/
 /*formatação css retirada do curso de HTML5 do Curso em Video*/
 figure.foto{
     position: relative;
@@ -29,7 +29,7 @@ figure.foto figcaption{
     background-color: rgba(243, 175, 167,.4);
     color: rgb(148, 75, 67);
     width: 100%;
-    height: 96%;
+    height: 98%;
     padding: 10px;
     box-sizing: border-box;/*faz a legenda respeitar o espaço da imagem*/
     transition: opacity 1s;
@@ -38,7 +38,7 @@ figure.foto:hover figcaption{
     opacity: 1;
 }
 
-/*Formatação do itens de menu*/
+/*FORMATAÇÃO DOS ITENS DE MENU*/
 nav.menu ul{
     list-style: none;/*remove o estilo da lista*/
     text-transform: uppercase;
@@ -51,9 +51,8 @@ nav.menu li{
     display: inline-block;/*coloca os elementos da lista um do lado do outro em linha*/
     background-color: #eb8d3c;
     padding: 0 10px 0 10px;
-    margin: 6px;
     transition: background-color 1s;
-    width: 80px;
+    width: 100px;
     text-align: center;
 }
 nav.menu li:hover{
@@ -98,4 +97,8 @@ nav.menu a:hover{
     text-transform: uppercase;
     font-size: 18px;
     font-style: initial;
+}
+
+p, li{
+    font-size: 20px;
 }
