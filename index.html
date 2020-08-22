@@ -5,113 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Web - Renato Marques</title>
-
-
-    <style>
-
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
-/*font-family: 'Baloo Tamma 2', cursive;*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-/*font-family: 'Open Sans', sans-serif;*/
-
-body{
-    font-family: 'Baloo Tamma 2', cursive;
-    color: salmon;
-    background-color: rgba(200, 200, 168, 0.815);
+    <link rel="stylesheet" href="./css/index.css">
     
-}
-/*FORMATAÇÃO DA IMAGEM*/
-/*formatação css retirada do curso de HTML5 do Curso em Video*/
-figure.foto{
-    position: relative;
-    display: inline-block;
-    left: 300px;
-}
-figure.foto img{
-    border: 8px solid rgb(243, 175, 167);
-    box-shadow: 1px 1px 4px black;
-}
-figure.foto figcaption{
-    opacity: 0;
-    position: absolute;
-    top: 0px;
-    background-color: rgba(243, 175, 167,.4);
-    color: rgb(148, 75, 67);
-    width: 100%;
-    height: 98%;
-    padding: 10px;
-    box-sizing: border-box;/*faz a legenda respeitar o espaço da imagem*/
-    transition: opacity 1s;
-}
-figure.foto:hover figcaption{
-    opacity: 1;
-}
-
-/*FORMATAÇÃO DOS ITENS DE MENU*/
-nav.menu ul{
-    list-style: none;/*remove o estilo da lista*/
-    text-transform: uppercase;
-    position: absolute;/*os conteiner dos li deixa de respeitar o espaço da tag nav passando a ser posicionada em qualquer parte da pagina*/
-    top: 0px;/*retirar espaços entre o topo da pagina e os menus*/
-    left: 800px;/*fazer os menus ficarem o mais ao esquerda na tela possivel*/
-
-}
-nav.menu li{
-    display: inline-block;/*coloca os elementos da lista um do lado do outro em linha*/
-    background-color: #eb8d3c;
-    padding: 0 10px 0 10px;
-    transition: background-color 1s;
-    width: 100px;
-    text-align: center;
-}
-nav.menu li:hover{
-    background-color: rgb(148, 75, 67);
-}
-/*Formatação do links <a>*/
-nav.menu a{
-    color: #000000;
-    text-decoration: none;
-}
-nav.menu a:hover{
-    color: #ffffff;
-    text-decoration: underline;
-}
-
-.titulos{
-    font-size: 50px;
-    font-weight: 600;
-    font-style: normal;
-    margin: 20px;
-    text-align: center;
-    text-align: left;
-}
-.textos, table tr{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    
-}
-.button {
-    text-transform: uppercase;
-    cursor: pointer; /*torna o cursor uma mão*/
-    /*display: inline-block;*/
-    white-space: nowrap;
-    background: #eb8d3c;
-    border: 0px solid #7d3a14;
-    border-radius: 4px;
-    border-width: 1px;
-    padding: 10px 20px 10px 20px;
-    color: #fff;    
-}
-#desenvolvedor{
-    text-transform: uppercase;
-    font-size: 18px;
-    font-style: initial;
-}
-
-p, li{
-    font-size: 20px;
-}
-    </style>
 </head>
 
 <body>
@@ -132,7 +27,7 @@ p, li{
                 Trybe</a>)</h2>
 
         <figure class="foto">
-            <img src="./_img/renato01.png" alt="Renato Marques da Silva" />
+            <img src="./img/renato01.png" alt="Renato Marques da Silva" />
             <figcaption>
                 <h3>Renato Marques</h3>
                 <p>Desenvolvedor Web em formação</p>
