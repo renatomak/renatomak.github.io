@@ -43,7 +43,7 @@ nav.menu ul{
     text-transform: uppercase;
     position: absolute;/*os conteiner dos li deixa de respeitar o espaço da tag nav passando a ser posicionada em qualquer parte da pagina*/
     top: 0px;/*retirar espaços entre o topo da pagina e os menus*/
-    left: 800px;/*fazer os menus ficarem o mais ao esquerda na tela possivel*/
+    left: 700px;/*fazer os menus ficarem o mais ao esquerda na tela possivel*/
 
 }
 nav.menu li{
@@ -51,7 +51,7 @@ nav.menu li{
     background-color: #eb8d3c;
     padding: 0 10px 0 10px;
     transition: background-color 1s;
-    width: 100px;
+    width: 120px;
     text-align: center;
 }
 nav.menu li:hover{
@@ -96,4 +96,12 @@ nav.menu a:hover{
 }
 p, li{
     font-size: 20px;
+}
+a{
+    color: salmon;
+    text-decoration: none;
+}
+a:hover{
+    color: #ffffff;
+    text-decoration: underline;
 }
