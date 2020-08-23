@@ -38,15 +38,23 @@ figure.foto:hover figcaption{
 }
 
 /*FORMATAÇÃO DOS ITENS DE MENU*/
-nav.menu ul{
-    list-style: none;/*remove o estilo da lista*/
+header.menu {
     text-transform: uppercase;
+    background: #eb8d3c;
+    border: 0px solid #7d3a14;
+    box-shadow: 1px 1px 4px black;
+    border-radius: 4px;
+    border-width: 1px;
+    color: #fff;    
+}
+header.menu ul{
+    list-style: none;/*remove o estilo da lista*/
     position: absolute;/*os conteiner dos li deixa de respeitar o espaço da tag nav passando a ser posicionada em qualquer parte da pagina*/
     top: 0px;/*retirar espaços entre o topo da pagina e os menus*/
-    left: 700px;/*fazer os menus ficarem o mais ao esquerda na tela possivel*/
+    left: 600px;/*fazer os menus ficarem o mais ao esquerda na tela possivel*/
 
 }
-nav.menu li{
+header.menu li{
     display: inline-block;/*coloca os elementos da lista um do lado do outro em linha*/
     background-color: #eb8d3c;
     padding: 0 10px 0 10px;
@@ -54,15 +62,16 @@ nav.menu li{
     width: 120px;
     text-align: center;
 }
-nav.menu li:hover{
+header.menu li:hover{
     background-color: rgb(148, 75, 67);
 }
+
+
 /*Formatação do links <a>*/
-nav.menu a{
+header.menu a{
     color: #000000;
-    text-decoration: none;
 }
-nav.menu a:hover{
+header.menu a:hover{
     color: #ffffff;
     text-decoration: underline;
 }
@@ -79,20 +88,7 @@ nav.menu a:hover{
 }
 .textos, table tr{
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    
-}
-.button {
-    text-transform: uppercase;
-    cursor: pointer; /*torna o cursor uma mão*/
-    /*display: inline-block;*/
-    white-space: nowrap;
-    background: #eb8d3c;
-    border: 0px solid #7d3a14;
-    border-radius: 4px;
-    border-width: 1px;
-    /*padding: 10px 20px 10px 20px;*/
-    color: #fff;    
+    font-size: 20px;  
 }
 p, li{
     font-size: 20px;
