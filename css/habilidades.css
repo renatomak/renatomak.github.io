@@ -8,18 +8,17 @@
 
 body{
     font-family: 'Baloo Tamma 2', cursive;
-    color: salmon;
+    color: #0206f8;
     background-color: rgba(200, 200, 168, 0.815);  
 }
 
-body,
 ul {
     padding: 0;
     margin: 0;
 }
 
 .container {
-    width: 100vw;
+    width: 900px;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -57,7 +56,7 @@ ul {
     font-size: 0;
     font-weight: bold;
     text-transform: uppercase;
-    color: salmon;
+    color: #0206f8;
     text-decoration: none;
     transition: all .5s ease-in-out;
 }
