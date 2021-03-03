@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Navigation } from './styled';
 
 const index = () => {
   return (
-    <div id="navigation" class="navigation">
+    <Navigation id="navigation" class="navigation">
       <ul>
         <li>
           <Link to="/">Home</Link>
@@ -21,7 +22,7 @@ const index = () => {
           &#9776;
         </li>
       </ul>
-    </div>
+    </Navigation>
   );
 };
 

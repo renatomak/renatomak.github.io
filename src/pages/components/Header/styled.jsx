@@ -1,0 +1,67 @@
+import styled from "styled-components";
+
+export const Navigation = styled.div`
+  background-color: #2b2b2b;
+  color: white;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  animation-name: navegacao;
+  animation-duration: 4s;
+
+  ul {
+    list-style: none;
+    text-align: right;
+    height: 50px;
+  }
+
+  li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 50px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    color: #f27609;
+  }
+  li.threeline-icon {
+    display: none;
+  }
+
+  li.threeline-icon:hover {
+    color: #f27609;
+    cursor: pointer;
+  }
+
+  @media (max-width: 820px) {
+    li {
+      display: none;
+    }
+
+    li.threeline-icon {
+      display: inline-block;
+    }
+  }
+
+  @keyframes navegacao {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+`;
