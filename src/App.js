@@ -7,10 +7,12 @@ import Home from './pages/Home';
 import Header from './pages/components/Header';
 import Contato from './pages/Contato';
 import Curriculo from './pages/Curriculo';
+import GlobalStyle from './styleGlobal';
 
 function App() {
   return (
     <Router>
+      <GlobalStyle />
       <Header />
       <Switch>
         <Route exact path='/' component={Home} />
