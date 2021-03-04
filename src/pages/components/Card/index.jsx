@@ -1,20 +1,20 @@
 import React from "react";
-import appRecipes from '../../../img/app-recipes.png'
+import { CardImg, ContainerCard } from "./styled";
 
 function Card(props) {
-  const { title1, title2, image, moreInfo} = props.item;
+  const { title1, title2, image, moreInfo } = props.item;
   return (
-    <div >
+    <ContainerCard>
       <a href={moreInfo}>
-        <img src={image}alt='Imagem do projeto' />
-        <div >
-          <div >
+        <CardImg className='card-img'>
+          <img src={image} alt="Imagem do projeto" />
+          <div className='text-houver'>
             <h1>{title1}</h1>
             <h2>{title2}</h2>
           </div>
-        </div>
+        </CardImg>
       </a>
-    </div>
+    </ContainerCard>
   );
 }
 
