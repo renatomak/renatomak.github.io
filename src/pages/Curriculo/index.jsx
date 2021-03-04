@@ -4,8 +4,8 @@ import renatoProfile from '../../img/renato-profile.jpg';
 
 function Curriculo() {
   return (
-    <div class="main">
-      <ul class="caminho">
+    <div className="main">
+      <ul className="caminho">
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -16,7 +16,7 @@ function Curriculo() {
       <h2>Dados Pessoais</h2>
       <hr />
       <img
-        class="cv-pic"
+        className="cv-pic"
         src={renatoProfile}
         alt="Foto de Renato Marques"
       />
@@ -68,7 +68,7 @@ function Curriculo() {
       <hr />
       <p>renato.mark.silva@gmail.com</p>
       <p>(062) 9 9464-4482</p>
-      <a class="back-link" href="index.html">
+      <a className="back-link" href="index.html">
         &larr; Voltar ao início
       </a>
     </div>

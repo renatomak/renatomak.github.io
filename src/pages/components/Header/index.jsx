@@ -1,10 +1,11 @@
-import React from "react";
+import React from 'react';
 import { Link } from "react-router-dom";
-import { Navigation } from './styled';
+import { Navigation } from "./styled";
 
-const index = () => {
+function Header() {
+
   return (
-    <Navigation id="navigation" class="navigation">
+    <Navigation>
       <ul>
         <li>
           <Link to="/">Home</Link>
@@ -18,12 +19,9 @@ const index = () => {
         <li>
           <Link to="/contato">Contato</Link>
         </li>
-        <li id="threeline-icon" class="threeline-icon" onclick="openNav()">
-          &#9776;
-        </li>
       </ul>
     </Navigation>
   );
 };
 
-export default index;
+export default Header;

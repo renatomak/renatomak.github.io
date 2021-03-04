@@ -1,20 +1,21 @@
 import React from "react";
 import renatoProfile from '../../img/renato-profile.jpg';
+import { Container, ProfileTitle } from './styled';
 
 function Home() {
   return (
-    <div class="capa">
-      <div class="profile-pic">
+    <Container>
+      <div className="profile-pic">
         <img src={ renatoProfile } alt="Foto de Renato Marques" />
       </div>
 
-      <div class="profile-title">
+      <ProfileTitle >
         <h1>
-          Renato <span>Marques da Silva</span>
+          Renato <span><br />Marques da Silva</span>
         </h1>
         <h2>Desenvolvedor Web | Front-end | HTML | CSS | React</h2>
-      </div>
-    </div>
+      </ProfileTitle>
+    </Container>
   );
 }
 

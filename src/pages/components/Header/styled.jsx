@@ -34,31 +34,13 @@ export const Navigation = styled.div`
   a:hover {
     color: #f27609;
   }
-  li.threeline-icon {
-    display: none;
-  }
-
-  li.threeline-icon:hover {
-    color: #f27609;
-    cursor: pointer;
-  }
-
-  @media (max-width: 820px) {
-    li {
-      display: none;
-    }
-
-    li.threeline-icon {
-      display: inline-block;
-    }
-  }
 
   @keyframes navegacao {
     0% {
       opacity: 0;
     }
     50% {
-      opacity: 0.5;
+      opacity: 0.0;
     }
     100% {
       opacity: 1;
