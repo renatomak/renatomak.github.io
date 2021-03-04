@@ -1,6 +1,7 @@
 import React from "react";
 import Caminho from "../components/Caminho";
 import renatoProfile from '../../img/renato-profile.jpg';
+import LinkVoltar from "../components/LinkVoltar";
 
 function Curriculo() {
   return (
@@ -61,9 +62,8 @@ function Curriculo() {
       <hr />
       <p>renato.mark.silva@gmail.com</p>
       <p>(062) 9 9464-4482</p>
-      <a className="back-link" href="index.html">
-        &larr; Voltar ao início
-      </a>
+
+      <LinkVoltar />
     </div>
   );
 }

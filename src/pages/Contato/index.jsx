@@ -3,6 +3,7 @@ import Caminho from "../components/Caminho";
 import { GoMarkGithub } from "react-icons/go";
 import { FaFacebook } from 'react-icons/fa';
 import { ImLinkedin } from 'react-icons/im';
+import LinkVoltar from "../components/LinkVoltar";
 
 const index = () => {
   return (
@@ -47,9 +48,7 @@ const index = () => {
 
       <br />
       <br />
-      <a className="back-link" href="index.html">
-        &larr; Voltar ao início
-      </a>
+      <LinkVoltar />
     </div>
   );
 };

@@ -1,8 +1,9 @@
 import React from "react";
 import Caminho from "../components/Caminho";
+import LinkVoltar from "../components/LinkVoltar";
 import data from "./data";
 import Card from "../components/Card";
-import { ContainerCards, ALink, PContainer } from "./styled";
+import { ContainerCards, PContainer } from "./styled";
 
 function Portfolio() {
   return (
@@ -14,9 +15,7 @@ function Portfolio() {
         ))}
         <br />
       </ContainerCards>
-      <ALink className="back-link" href="index.html">
-        &larr; Voltar ao início
-      </ALink>
+      <LinkVoltar />
     </PContainer>
   );
 }
