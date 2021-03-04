@@ -1,17 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Caminho from "../components/Caminho";
 import renatoProfile from '../../img/renato-profile.jpg';
 
 function Curriculo() {
   return (
     <div className="main">
-      <ul className="caminho">
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>{">"}</li>
-        <li>Currículo</li>
-      </ul>
+      <Caminho page='Curriculo'/>
       <h1>Currículo</h1>
       <h2>Dados Pessoais</h2>
       <hr />

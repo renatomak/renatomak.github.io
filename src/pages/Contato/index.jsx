@@ -1,19 +1,13 @@
 import React from "react";
+import Caminho from "../components/Caminho";
 import { GoMarkGithub } from "react-icons/go";
 import { FaFacebook } from 'react-icons/fa';
 import { ImLinkedin } from 'react-icons/im';
-import { Link } from 'react-router-dom';
 
 const index = () => {
   return (
     <div className="main">
-      <ul className="caminho">
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>{" > "}</li>
-        <li>Contato</li>
-      </ul>
+      <Caminho page='Contato'/>
 
       <h1>Contato</h1>
 
