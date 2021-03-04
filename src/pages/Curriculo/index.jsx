@@ -6,7 +6,6 @@ function Curriculo() {
   return (
     <div className="main">
       <Caminho page='Curriculo'/>
-      <h1>Currículo</h1>
       <h2>Dados Pessoais</h2>
       <hr />
       <img

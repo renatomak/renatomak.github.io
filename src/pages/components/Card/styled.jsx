@@ -14,6 +14,7 @@ export const CardImg = styled.div`
 
   h1 {
     font-size: 1.5rem;
+    color: #f27609;
   }
 
   h2 {
@@ -37,7 +38,7 @@ export const ContainerCard = styled.div`
     border-radius: 20px;
     color: white;
     font-size: 30px;
-    height: calc(((100vw - (100vw - 900px)) / 2.39 - 20px) / 2);
+    height: calc(((100vw - (100vw - 900px)) / 2.2 - 20px) / 2);
     line-height: 100%;
     opacity: 0;
     padding-top: 25%;

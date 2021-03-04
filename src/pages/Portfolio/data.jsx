@@ -26,6 +26,7 @@ const data = [
     moreInfo:
       "https://github.com/tryber/sd-07-project-movie-card-library-crud/tree/renato-marques-movie-card-library-crud",
   },
+  
 ];
 
 export default data;

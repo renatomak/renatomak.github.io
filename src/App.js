@@ -8,19 +8,22 @@ import Header from './pages/components/Header';
 import Contato from './pages/Contato';
 import Curriculo from './pages/Curriculo';
 import Portfolio from './pages/Portfolio';
-import GlobalStyle from './styleGlobal';
+import GlobalStyle, { MainContainer } from './styleGlobal';
 
 function App() {
   return (
     <Router>
       <GlobalStyle />
       <Header />
+      <MainContainer>
       <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/contato' component={Contato} />
         <Route path='/curriculo' component={Curriculo} />
         <Route path='/portfolio' component={Portfolio} />
       </Switch>
+              
+      </MainContainer>
     </Router>
   );
 }

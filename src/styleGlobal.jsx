@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
  
 const GlobalStyle = createGlobalStyle`
   *, html {
@@ -10,6 +10,12 @@ const GlobalStyle = createGlobalStyle`
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
   }
+`;
+
+export const MainContainer = styled.div`
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 `;
  
 export default GlobalStyle;

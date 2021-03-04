@@ -1,9 +1,31 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ContainerCards = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 50px auto;
   width: 100%;
+  animation-name: conteudo;
+  animation-duration: 8s;
+`;
+
+export const ALink = styled.a`
+  color: #f27609;
+  font-weight: 400px;
+`;
+
+export const PContainer = styled.div`
+  animation-name: conteudo;
+  animation-duration: 2s;
+
+  @keyframes conteudo {
+    0% {
+      opacity: 0;
+      transform: translate(-20px, 0px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0px, 0px);
+    }
+  }
 `;

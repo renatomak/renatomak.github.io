@@ -9,8 +9,6 @@ const index = () => {
     <div className="main">
       <Caminho page='Contato'/>
 
-      <h1>Contato</h1>
-
       <h3>E-mail:</h3>
       <p>renato.mark.silva@gmail.com</p>
 
