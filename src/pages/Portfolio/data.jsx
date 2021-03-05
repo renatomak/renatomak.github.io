@@ -9,13 +9,13 @@ const data = [
       "https://github.com/tryber/sd-07-project-facebook-signup/tree/renato-marques-facebook-project",
   },
   {
-    id: 19,
-    title1: `Projeto Trybe nº 19 - Recipes App`,
-    title2: "OverHooked",
+    id: 14,
+    title1: `Projeto Trybe nº 14 - Online Store`,
+    title2: "Loja Virtual",
     tipo: "Feito em grupo",
-    image: "/images/app-recipes.png",
+    image: "/images/projeto14-online-store.png",
     moreInfo:
-      "https://github.com/tryber/sd-07-project-recipes-app/tree/main-group-32",
+      "https://github.com/tryber/sd-07-project-frontend-online-store/tree/main-group-11",
   },
   {
     id: 15,
@@ -35,6 +35,15 @@ const data = [
     moreInfo:
       "https://github.com/tryber/sd-07-project-movie-card-library-crud/tree/renato-marques-movie-card-library-crud",
   },
+  {
+    id: 19,
+    title1: `Projeto Trybe nº 19 - Recipes App`,
+    title2: "OverHooked",
+    tipo: "Feito em grupo",
+    image: "/images/app-recipes.png",
+    moreInfo:
+      "https://github.com/tryber/sd-07-project-recipes-app/tree/main-group-32",
+  }
   
 ];
 
