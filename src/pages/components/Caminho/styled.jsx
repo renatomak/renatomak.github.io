@@ -20,10 +20,12 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 150px;
+  
 
   h1 {
     color: white;
     font-weight: 400;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
   }
 `;

@@ -2,11 +2,11 @@ import styled from "styled-components";
 
 export const CardImg = styled.div`
   filter: grayscale(0%);
-  height: calc(((100vw - (100vw - 900px)) / 1.7 - 20px) / 2);
+  height: calc(((100vw - (100vw - 900px)) - 20px) / 2.5);
   transition: all 0.7s ease-in-out;
 
   img {
-    border-radius: 20px;
+    border-radius: 5px;
     height: 100%;
     object-fit: cover;
     width: 100%;
@@ -20,8 +20,6 @@ export const CardImg = styled.div`
   h2 {
     font-size: 1rem;
   }
-
-
 `;
 
 export const ContainerCard = styled.div`
@@ -31,21 +29,25 @@ export const ContainerCard = styled.div`
   transition: 0.7s;
 
   /* pega o total de espaço da tela divide por 4 cards e subtrai as margens */
-  width: calc(100% / 4 - 20px);
+  width: calc(100% / 3 - 20px);
 
   .text-houver {
     background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
+    border-radius: 5px;
     color: white;
     font-size: 30px;
-    height: calc(((100vw - (100vw - 900px)) / 2.2 - 20px) / 2);
+    height: 100%;
     line-height: 100%;
     opacity: 0;
-    padding-top: 25%;
     position: absolute;
     text-align: center;
     top: 0;
     width: 100%;
+
+  }
+
+  h1 {
+    margin-top: 42%;
   }
 
   .text-houver:hover {
