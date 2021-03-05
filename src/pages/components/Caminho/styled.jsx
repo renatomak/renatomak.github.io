@@ -5,7 +5,6 @@ export const UlCaminho = styled.ul`
   list-style: none;
   color: grey;
   margin-top: 20px;
-  
 
   li {
     margin: 5px;
@@ -21,6 +20,8 @@ export const Container = styled.div`
   flex-direction: column;
   margin-left: 150px;
   
+  animation-name: conteudo;
+  animation-duration: 2s;
 
   h1 {
     color: white;
@@ -28,4 +29,15 @@ export const Container = styled.div`
     margin-top: 10px;
     margin-bottom: 30px;
   }
+
+  @keyframes conteudo {
+  0% {
+    opacity: 0;
+    transform: translate(-20px, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
 `;
