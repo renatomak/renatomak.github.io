@@ -47,7 +47,7 @@ export const ContainerCard = styled.div`
   }
 
   h1 {
-    margin-top: 42%;
+    margin-top: 35%;
   }
 
   .text-houver:hover {

@@ -2,7 +2,7 @@ import React from "react";
 import { CardImg, ContainerCard } from "./styled";
 
 function Card(props) {
-  const { title1, title2, image, moreInfo } = props.item;
+  const { title1, title2, image, moreInfo, tipo } = props.item;
   return (
     <ContainerCard>
       <a href={moreInfo}>
@@ -11,6 +11,7 @@ function Card(props) {
           <div className='text-houver'>
             <h1>{title1}</h1>
             <h2>{title2}</h2>
+            <h3>{tipo}</h3>
           </div>
         </CardImg>
       </a>
