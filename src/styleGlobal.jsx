@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
   body {
-    background-color: #acacac;
+    background-color: var(--background);
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
   }

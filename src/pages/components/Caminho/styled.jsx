@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const UlCaminho = styled.ul`
   display: flex;
   list-style: none;
-  color: grey;
+  color: var(--grayLite);
   margin-top: 20px;
 
   li {
@@ -11,7 +11,7 @@ export const UlCaminho = styled.ul`
   }
 
   a {
-    color: grey;
+    color: var(--grayLite);
   }
 `;
 
@@ -24,7 +24,7 @@ export const Container = styled.div`
   animation-duration: 2s;
 
   h1 {
-    color: white;
+    color: var(--white);
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 30px;

@@ -10,7 +10,7 @@ export const ContainerCards = styled.div`
 `;
 
 export const ALink = styled.a`
-  color: #f27609;
+  color: var(--orange);
   font-weight: 400px;
 `;
 

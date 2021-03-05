@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ALink } from "./styled";
+import { ImArrowLeft } from 'react-icons/im'
 
 function LinkVoltar() {
   return (
     <ALink>
-      <Link to="/">&larr; Voltar ao início</Link>
+      <Link to="/"><ImArrowLeft /> Voltar ao início</Link>
     </ALink>
   );
 }

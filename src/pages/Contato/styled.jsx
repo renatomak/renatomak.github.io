@@ -9,12 +9,12 @@ export const ContatoContainer = styled.div`
   animation-duration: 2s;
   
   h3 {
-    color: #f27609;
+    color: var(--orange);
     text-transform: uppercase;
   }
 
   p {
-    color: #e7e2e2;
+    color: var(--orangeLite);
     font-weight: 300;
     font-size: 2rem;
   }

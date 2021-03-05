@@ -27,7 +27,7 @@ export const ProfileTitle = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: white;
+  color: var(--white);
 
   animation-name: titulo-capa;
   animation-duration: 2s;
@@ -40,7 +40,7 @@ export const ProfileTitle = styled.div`
   }
 
   span {
-    color: #f27609;
+    color: var(--orange);
   }
 
   h2 {

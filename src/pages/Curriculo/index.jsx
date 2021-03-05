@@ -70,9 +70,9 @@ function Curriculo() {
           <hr />
           <p>
             Com a experiência obtida no RH da minha empresa, descobri que gosto
-            de lidar com pessoas e ajudá-las a resolver suas demandas. Estou em
+            de lidar com pessoas e ajudá-las a resolver suas demandas. Atualmente em
             transição para a área de tecnologia, a qual sou apaixonado. Estudo
-            Desenvolvimento Web, com módulo de Front-end já concluído. Entre as
+            Desenvolvimento Web, com o módulo de Front-end já concluído. Entre as
             tecnologias/ferramentas estudadas estão: HTML, CSS, JavaScript,
             React e seu ecossistema.
           </p>
@@ -101,6 +101,7 @@ function Curriculo() {
             <li>JavaScript</li>
             <li>React</li>
             <li>SQL</li>
+            <li>Java</li>
           </ul>
         </ProgrammingLanguages>
       </HardSkills>

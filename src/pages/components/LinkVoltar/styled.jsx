@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ALink = styled.div`
   a {
-    color: #f27609;
+    color: var(--orange);
     font-weight: 400px;
   }
 `;

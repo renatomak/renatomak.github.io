@@ -9,6 +9,7 @@ import Contato from './pages/Contato';
 import Curriculo from './pages/Curriculo';
 import Portfolio from './pages/Portfolio';
 import GlobalStyle, { MainContainer } from './styleGlobal';
+import './colors.css';
 
 function App() {
   return (

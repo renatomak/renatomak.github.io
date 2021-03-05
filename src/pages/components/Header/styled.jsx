@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Navigation = styled.div`
-  background-color: #2b2b2b;
-  color: white;
+  background-color: var(--navBackground);
+  color: var(--white);
   height: 80px;
   display: flex;
   justify-content: flex-end;
@@ -28,11 +28,11 @@ export const Navigation = styled.div`
 
   a {
     text-decoration: none;
-    color: white;
+    color: var(--white);
   }
 
   a:hover {
-    color: #f27609;
+    color: var(--orange);
   }
 
   @keyframes navegacao {

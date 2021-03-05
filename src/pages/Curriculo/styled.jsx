@@ -2,9 +2,23 @@ import styled from "styled-components";
 
 export const CContainer = styled.div`
   line-height: 50px;
-  
+
+  animation-name: conteudo;
+  animation-duration: 2s;
+
   h2 {
-    color: #7c6a6a;
+    color: var(--orangeLite2);
+  }
+
+  @keyframes conteudo {
+    0% {
+      opacity: 0;
+      transform: translate(-20px, 0px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0px, 0px);
+    }
   }
 `;
 
@@ -43,7 +57,7 @@ export const CurrHeaderDados = styled.div`
   }
 
   span {
-    color: #f27609;
+    color: var(--orange);
   }
 `;
 
