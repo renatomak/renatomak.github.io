@@ -13,7 +13,7 @@ function Home() {
         <h1>
           Renato <span><br />Marques da Silva</span>
         </h1>
-        <h2>Desenvolvedor Web | Front-end | HTML | CSS | React</h2>
+        <h2>Desenvolvedor Web Front-end | HTML | CSS | React</h2>
       </ProfileTitle>
     </Container>
   );
