@@ -70,11 +70,13 @@ function Curriculo() {
           <hr />
           <p>
             Com a experiência obtida no RH da minha empresa, descobri que gosto
-            de lidar com pessoas e ajudá-las a resolver suas demandas. Atualmente em
-            transição para a área de tecnologia, a qual sou apaixonado. Estudo
-            Desenvolvimento Web, com o módulo de Front-end já concluído. Entre as
-            tecnologias/ferramentas estudadas estão: HTML, CSS, JavaScript,
-            React e seu ecossistema.
+            de lidar com pessoas e ajudá-las a resolver suas demandas. Estou em
+            transição para a área de tecnologia, a qual sou apaixonado. Nessa
+            nova área quero continuar ajudando pessoas, mas agora com soluções
+            em softwares. Para atingir essa nova colocação no mercado de
+            trabalho, estudo Desenvolvimento Web, com o módulo de Front-end já
+            concluído. Entre as tecnologias/ferramentas já estudadas, estão:
+            HTML, CSS, JavaScript, React e seu ecossistema.
           </p>
         </Text>
       </AboutMe>
@@ -174,7 +176,10 @@ function Curriculo() {
 
             <p>Atendimento receptivo ao Cliente da operadora Vivo.</p>
             <ul>
-              <li>Resolução de problemas diversos nas linhas de telefone dos clientes;</li>
+              <li>
+                Resolução de problemas diversos nas linhas de telefone dos
+                clientes;
+              </li>
               <li>Oferta de produtos sugeridos para as linhas.</li>
             </ul>
           </CardRight>
